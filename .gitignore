@@ -1,0 +1,8 @@
+# Git ignore file.
+
+# Build directory.
+/bin
+/obj
+
+# Visual Studio Code settings.
+/.vscode
