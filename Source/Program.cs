@@ -15,7 +15,9 @@ namespace Apogee.Bot
                 return;
             }
 
-            Console.WriteLine($"Uri: {config.Uri}");
+            var graph = new Spider().Crawl(config);
+            graph.Display();
+            graph.DisplayStats();
         }
     }
 }
